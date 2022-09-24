@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+    height: 400px;
+    margin-top: 100px;
+   
+}
+#div1{
+    display: flex;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 100%;
+    color: blue;
+}
+#div2{
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 100%;
+    
+}
+#serach{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#gmap_canvas{
+    width: 100%;
+}
+#div1>div{
+    display: flex;
+    flex-direction: column;
+    
+}
+#minImg{
+    width: 25px;
+    height: 25px;
+    margin-top: -6px;
+}
+#minDiv{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+}
+#maxImg{
+    width: 25px;
+    height: 25px;
+    margin-top: -6px;
+}
+#maxDiv{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+   
+}
+
+#div1>div{
+    margin-top: 47px;
+    margin-left: 60px;
+    gap: 12px;
+}
+#cloudDiv>img{
+    width: 23px;
+    height: 23px;
+    
+}
+#cloudDiv{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+}
+p{
+    margin-bottom: 10px;
+}
+#icon{
+    position: relative;
+    left: 875px;
+    bottom: 33px;
+}
+#icon>img{
+    width: 2%;
+    cursor: pointer;
+}
+#myinput{
+    padding: 10px 140px 10px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+   
+}
